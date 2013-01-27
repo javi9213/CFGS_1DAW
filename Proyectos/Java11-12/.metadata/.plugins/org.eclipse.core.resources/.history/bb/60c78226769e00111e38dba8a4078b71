@@ -1,8 +1,0 @@
-package lista_circular;
-
-public class pilas extends listac {
-	
-	public pilas(){
-		
-	}
-}

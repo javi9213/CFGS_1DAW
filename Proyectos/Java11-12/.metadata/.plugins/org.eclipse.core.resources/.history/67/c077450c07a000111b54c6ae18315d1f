@@ -1,8 +1,0 @@
-package lista_circular;
-
-public class test {
-
-	public static void main(String[] args) {
-		listac<> lista = new lista();
-	}
-}

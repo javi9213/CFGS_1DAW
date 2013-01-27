@@ -1,5 +1,0 @@
-<?php
-	var $lado="que pasa";
-	$superficie=(int)$lado;
-	echo $superficie;
-?>

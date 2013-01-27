@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Copy element &apos;Leer.java&apos; to &apos;bidimensional/src/determinante&apos;&#x0D;&#x0A;- Original project: &apos;Examen1&apos;&#x0D;&#x0A;- Destination element: &apos;bidimensional/src/determinante&apos;&#x0D;&#x0A;- Original element: &apos;Leer.java&apos;" description="Copy compilation unit" destination="=bidimensional/src&lt;determinante" element1="/src&lt;{Leer.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1332242816121" units="1" version="1.0"/>
-</session>

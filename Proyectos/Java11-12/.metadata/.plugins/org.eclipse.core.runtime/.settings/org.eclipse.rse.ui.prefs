@@ -1,4 +1,0 @@
-#Sun Jun 17 23:08:40 CEST 2012
-eclipse.preferences.version=1
-org.eclipse.rse.preferences.order.connections=JaVi-PC.Local
-org.eclipse.rse.internal.ui.view.SystemViewSubSystemAdapter\:org.eclipse.rse.ui.view.SystemTableView=org.eclipse.rse.ui.userid;org.eclipse.rse.ui.port;org.eclipse.rse.ui.connected;org.eclipse.rse.ui.vrm

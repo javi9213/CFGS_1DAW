@@ -1,6 +1,0 @@
-package lista_circular;
-
-public class colas<T> extends listac {
-
-	
-}

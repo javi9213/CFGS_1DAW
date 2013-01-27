@@ -1,9 +1,0 @@
-package ejercicios_propuestos;
-
-public class decimaltoromano {
-	private int decimal;
-	private int romano;
-	public void decimalToRomano(int decimal){
-		
-	}
-}

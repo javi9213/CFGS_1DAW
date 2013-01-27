@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Copy 3 elements to &apos;Examen4/src/(default package)&apos;&#x0D;&#x0A;- Original project: &apos;JParejasAndroid&apos;&#x0D;&#x0A;- Destination element: &apos;Examen4/src/(default package)&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     JParejas.Principal.java&#x0D;&#x0A;     JParejas.Parejas.java&#x0D;&#x0A;     JParejas.Tablero.java" description="Copy compilation units" destination="=Examen4/src&lt;" element1="/src&lt;JParejas{Principal.java" element2="/src&lt;JParejas{Parejas.java" element3="/src&lt;JParejas{Tablero.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1339614447922" units="3" version="1.0"/>
-</session>
