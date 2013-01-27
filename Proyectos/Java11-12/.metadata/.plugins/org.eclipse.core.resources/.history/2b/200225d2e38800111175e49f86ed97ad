@@ -1,0 +1,21 @@
+package ejercicio12;
+
+public class CSilla {
+
+	private int [][]array;
+	private final int TAMARRAY = 10;
+	
+	public CSilla(){
+		array = new int[TAMARRAY][TAMARRAY];
+	}
+
+	public int getTAMATRIZ() {
+		return TAMATRIZ;
+	}
+	
+	public void rellenar(){
+		for(int i=0;i<=TAMARRAY;i++){
+			int num = array[i][fila];
+		}	
+	}
+}

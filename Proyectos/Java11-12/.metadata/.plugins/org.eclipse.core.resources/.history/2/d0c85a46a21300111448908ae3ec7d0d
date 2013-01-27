@@ -1,0 +1,6 @@
+package ejercicios_propuestos;
+
+public class decimaltoromano {
+	private int decimal;
+	private int romano;
+}

@@ -1,0 +1,15 @@
+package lista_circular;
+
+public class test {
+
+	public static void mostrarListac(listac<Cdatos> lista){
+		int tam=lista.tamanio();
+		for(int i=0;i<tam;i++){
+			
+		}
+	}
+	
+	public static void main(String[] args) {
+		listac<Cdatos> lista = new listac<Cdatos>();
+	}
+}

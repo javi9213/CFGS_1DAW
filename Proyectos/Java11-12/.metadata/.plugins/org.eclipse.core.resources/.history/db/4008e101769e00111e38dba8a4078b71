@@ -1,0 +1,6 @@
+package pilas;
+
+public class pila extends listac {
+
+	
+}

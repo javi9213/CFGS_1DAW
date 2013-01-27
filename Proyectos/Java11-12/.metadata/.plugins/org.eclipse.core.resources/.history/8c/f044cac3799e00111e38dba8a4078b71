@@ -1,0 +1,31 @@
+package lista_circular;
+
+public class pilas<T> extends listac {
+	
+	listac<T> pila;
+	
+	public pilas(){
+		pila = new listac();
+	}
+	
+	public int size(){
+		return pila.tamanio();
+	}
+	
+	public void push(T dato){				//añadir
+		pila.addFirst(dato);
+	}
+	
+	public T pop(){							//obtener
+		return pila.borrar();
+	}
+	
+	public boolean pilaVacia(){
+		boolean res = false;
+		
+		if(pila != null)
+			res = true;
+		
+		return res;
+	}
+}

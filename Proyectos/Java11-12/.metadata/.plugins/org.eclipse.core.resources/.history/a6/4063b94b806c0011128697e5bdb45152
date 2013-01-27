@@ -1,0 +1,18 @@
+/*
+ * asteriscos2.cpp
+ *
+ *  Created on: 12/03/2012
+ *      Author: JaVi
+ */
+
+#include "asteriscos2.h"
+
+asteriscos2::asteriscos2() {
+	// TODO Auto-generated constructor stub
+
+}
+
+asteriscos2::~asteriscos2() {
+	// TODO Auto-generated destructor stub
+}
+

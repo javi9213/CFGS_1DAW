@@ -1,0 +1,42 @@
+package ejercicio12;
+
+public class CSilla {
+
+	private int [][]matriz;
+	private final int TAMATRIZ = 10;
+	private int columna, fila;
+	
+	public CSilla(){
+		matriz = new int[TAMATRIZ][TAMATRIZ];
+		columna = 0;
+		fila = 0;
+	}
+	
+	public int getColumna() {
+		return columna;
+	}
+
+	public int getFila() {
+		return fila;
+	}
+
+	public int getTAMATRIZ() {
+		return TAMATRIZ;
+	}
+
+	public void anadircolumna(int colum){
+		matriz[columna][fila] = colum;
+		columna++;
+	}
+	
+	public void anadirfila(int filas){
+		matriz[columna][fila] = filas;
+		fila++;
+	}
+	
+	public void puntosilla(){
+		for(int i=0;i<=columna;i++){
+			int num = matriz[columna][fila];
+		}	
+	}
+}

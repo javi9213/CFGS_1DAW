@@ -1,0 +1,36 @@
+package arrayobjeto;
+
+public class CMatriz {
+
+	private double[] matriz;
+	private int NDims;
+	private int[] dimsMatriz;
+	
+	public CMatriz(){
+		CMatriz matriz = new CMatriz();
+		matriz.construir(dimsMatriz);
+	}
+	
+	public void construir(int [] dims) {
+		int num = NDims;
+		for(int i = 0;i<num;i++){
+			if(num>0){
+				num = 1;
+			}else{
+				NDims = num;
+			}
+		}
+	}
+	
+	public int totalelementos(){
+		int cont = 0, elementos = 0;
+	}
+
+	public static void main (String[]args){
+	
+		double[][][] miMatrizDouble = new double[5][10][4];
+		int i = 5, j = 10, k = 4, conta = 1;
+		miMatrizDouble[i][j][k] = conta++;
+		
+	}
+}

@@ -1,0 +1,28 @@
+package lista_circular;
+
+public class colas<T> extends listac {
+
+	listac<T> cola;
+	
+	public colas(){
+		cola = new listac();
+	}
+	
+	public int size(){
+		return cola.tamanio();
+	}
+	
+	public void push(T obj){
+		cola.addLast(obj);
+	}
+	
+	public T pop(){
+		return cola.borrar();
+	}
+	
+	public boolean colaVacia(){
+		boolean res = false;
+		
+		return res;
+	}
+}

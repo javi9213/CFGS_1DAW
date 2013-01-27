@@ -1,0 +1,65 @@
+package lista_circular;
+
+public class listac<T> {
+
+	private class CElemento{
+		private T dato;
+		private CElemento siguiente;
+		
+		public CElemento(){}
+		public CElemento(T d, CElemento s){
+			dato = d;
+			siguiente = s;
+		}
+	}
+	
+	private CElemento ultimo = null;
+	private int tamanio;
+	
+	public listac(){
+		tamanio = 0;
+	}
+
+	public int tamanio() {
+		return tamanio;
+	}
+
+	public void addFirst(T dato){
+		CElemento nuevo = new CElemento(dato , null);
+		if(ultimo != null){
+			nuevo.siguiente = ultimo.siguiente;
+			ultimo.siguiente = nuevo;
+		}else{
+			ultimo = nuevo;
+			ultimo.siguiente= nuevo;
+		}
+	}
+	
+	public void addLast(T dato){
+		addFirst(dato);
+		ultimo = ultimo.siguiente;
+	}
+	
+	
+	public T borrar(){
+		
+		CElemento q = ultimo.siguiente;
+		T obj = q.dato;
+
+		if(ultimo==null){
+			System.out.println("Lista vacia");
+		}else{
+			if(q==ultimo){
+				ultimo=null;
+			}else{
+				ultimo.siguiente=q.siguiente;
+			}
+		}
+		
+		return obj;
+	}
+	
+	public T obtener(int i){
+		
+	}
+}

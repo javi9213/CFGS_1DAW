@@ -1,0 +1,12 @@
+public class pilad {
+
+	private int numElem;
+	
+	public pilad(){
+		numElem = 0;
+	}
+	
+	public int getnumElem(){
+		return numElem;
+	}
+}

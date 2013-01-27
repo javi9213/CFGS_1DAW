@@ -1,0 +1,13 @@
+package arrayobjeto;
+
+public class CMatriz {
+
+	private double[] matriz;
+	private int NDims;
+	private int[] dimsMatriz;
+	
+	double[][][] miMatrizDouble = new double[5][10][4];
+	public int i, j, k, conta = 1;
+	miMatrizDouble[i][j][k] = conta++;
+	
+}

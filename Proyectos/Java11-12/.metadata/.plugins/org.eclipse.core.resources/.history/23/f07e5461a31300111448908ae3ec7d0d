@@ -1,0 +1,13 @@
+package ejercicios_propuestos;
+
+public class decimaltoromano {
+	private int decimal;
+	private int romano;
+	public void decimalToRomano(int decimal){
+		if((decimal<=3000)&&(decimal>=1000)){
+			for(int q=0;q<=2;q++){
+				System.out.print("M");
+			}
+		}
+	}
+}

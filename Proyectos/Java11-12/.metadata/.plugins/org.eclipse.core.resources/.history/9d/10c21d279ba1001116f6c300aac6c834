@@ -1,0 +1,28 @@
+package listas_simplemente_enlazadas;
+
+public class AppLista {
+	
+	public static void main(String[] args) {
+		
+		lista<Cdatos> listdat = new lista<Cdatos>();
+		Cdatos d1 = new Cdatos("jose", 5.2);
+		Cdatos d2 = new Cdatos("pedro", 7.65);
+		Cdatos d3 = new Cdatos("antonio", 9.5);
+		
+		listdat.anadirPrincipio(d1);
+		listdat.anadirPrincipio(d2);
+		listdat.anadir(2, d3);
+		
+		System.out.println(listdat);
+		System.out.println();
+		
+		System.out.println("Borrar "+listdat.Borrar(1));
+		
+		System.out.println(listdat);
+		System.out.println();
+		
+		System.out.println("Obtener "+listdat.obtener(2));
+		
+		System.out.println(listdat);
+	}
+}

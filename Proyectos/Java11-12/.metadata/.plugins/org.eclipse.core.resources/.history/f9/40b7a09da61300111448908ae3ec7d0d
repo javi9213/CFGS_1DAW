@@ -1,0 +1,25 @@
+package ejercicios_propuestos;
+
+public class decimaltoromano {
+
+	public void decimalToRomano(int decimal){
+		if(decimal>=3000){
+			for(int q=0;q<=2;q++){
+				System.out.print("M");
+			}
+		}
+		if((decimal>=2000)&&(decimal<3000)){
+			for(int w=0;w<=1;w++){
+				System.out.print("M");
+			}
+		}
+		if((decimal>=1000)&&(decimal<2000)){
+			System.out.print("M");
+		}
+		decimal=decimal%1000;
+		System.out.print(decimal);
+		if((decimal>=900)&&(decimal<1000)){
+			System.out.print("CM");
+		}
+	}
+}

@@ -1,0 +1,11 @@
+<html>
+	<head>
+		<title>Fibonacci</title>
+	</head>
+	<body>
+		<form action="fibonacci.php" method="POST">
+			N&uacute;mero de elementos:<input type="int" name="nume" value="0">
+			<input type="submit" value="Mostrar">
+		</form>
+	</body>
+</html>

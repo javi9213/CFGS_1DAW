@@ -1,0 +1,14 @@
+<html>
+	<head>
+		<title>Mostrar BD</title>
+	</head>
+	<body>
+		
+		<?php
+			$servidor="localhost";
+			$usuario="root";
+			$clave="123456";
+		?>
+
+	</body>
+</html>

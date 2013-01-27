@@ -1,0 +1,18 @@
+package lista_circular;
+
+public class pilas<T> extends listac {
+	
+	listac<T> pila;
+	
+	public pilas(){
+		pila = new listac();
+	}
+	
+	public int size(){
+		return pila.tamanio();
+	}
+	
+	public void push(T dato){				//añadir
+		
+	}
+}

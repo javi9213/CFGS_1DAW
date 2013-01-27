@@ -1,0 +1,13 @@
+/*
+ * asteriscos2.cpp
+ *
+ *  Created on: 12/03/2012
+ *      Author: JaVi
+ */
+
+#include <iostream>
+using namespace std;
+	int main(){
+		unsigned n;
+
+	}

@@ -1,0 +1,57 @@
+import lista_circular.listac.CElemento;
+
+public class pilad {
+
+	private class CElemento{
+		private char dato;
+		private CElemento siguiente;
+		
+		public CElemento(){}
+		
+		public CElemento(char d){
+			this.dato=d;
+			siguiente=null;
+		}
+	}
+	
+	private int numElem;
+	private CElemento pila;
+	
+	public pilad(){
+		numElem = 0;
+	}
+	
+	public int size(){
+		return numElem;
+	}
+	
+	public void push(char d){		//anadir
+		CElemento ch = new CElemento(d);
+		if (pila != null) {
+			ch.siguiente = pila.siguiente;
+			pila.siguiente = ch;
+		}else{
+			pila = ch;
+			pila.siguiente = ch;
+		}
+		numElem++;
+	}
+	
+	public char pop(){				//obtener
+		CElemento q = pila.siguiente;
+		char obj = q.dato;
+
+		if(pila == null){
+			System.out.println("Pila vacia");
+		}else{
+			if(q == pila){
+				pila = null;
+			}else{
+				pila.siguiente = q.siguiente;
+			}
+		}
+		numElem--;
+
+		return obj;
+	}
+}

@@ -1,0 +1,39 @@
+<?php
+	class Paginaweb{
+	
+		var $titulo;
+		
+		function setTitulo($titulo = "titulo página por defecto"){
+          $this->titulo=$titulo;
+		}
+		
+		public function getTitulo(){
+			return $this->titulo;
+		}
+		
+		public function cabecera(){
+			echo "<html><head><title>";
+			echo $this->titulo;
+			echo "</title></head><body>";
+		}
+		
+		public function pie(){
+			echo "</body></html>";
+		}
+		
+		public function cuerpo($cuerpo=""){
+			echo "$cuerpo";
+		}
+		
+		public function mostrarpagina(){
+			$this->cabecera();
+			$this->cuerpo();
+			$this->pie();
+		}
+		
+		public function enlaces($enl1="#", $enl2="#"){
+			echo "<a href='$enl1'>Anterior</a>\t";
+			echo "<a href='$enl2'>Siguiente</a>";
+		}
+	}
+?>

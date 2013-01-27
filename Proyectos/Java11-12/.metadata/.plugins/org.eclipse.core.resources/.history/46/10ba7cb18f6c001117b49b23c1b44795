@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<title>Autentificacion</title>
+	</head>
+	<body>
+<?php
+	include "$conexion.php";
+		$users=$_POST["user"];
+		$passwords=$_POST["contrasena"];
+		$usuarios=mysql_query("select usuario from admin", $conexion);
+		$password=mysql_query("select contrasena from admin", $conexion);
+	if ($_POSTusers == isset ["usuario"] && $passwords == ["contrasena"]){
+		$_SESSION["autenticado"]= "SI";
+		header ("Location: index.php");
+	}else{
+		//header("Location: errorusuario.php?errorusuario=si");
+		echo "Datos introducidos err&oacute;neos<br>";
+		echo "<a href='login.html'><input type='submit' value='Atr&aacute;s'></a>";
+	}
+	include "$cerrar_conexion.php";
+?>
+	</body>
+</html>

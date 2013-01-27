@@ -1,0 +1,32 @@
+public class pilad {
+
+	private class CElemento{
+		private char dato;
+		private CElemento siguiente;
+		
+		public CElemento(){}
+		
+		public CElemento(char d){
+			this.dato=d;
+		}
+	}
+	
+	private int numElem;
+	private CElemento pila;
+	
+	public pilad(){
+		numElem = 0;
+	}
+	
+	public int getnumElem(){
+		return numElem;
+	}
+	
+	public void push(){		//anadir
+		
+	}
+	
+	public void pop(){		//obtener
+		
+	}
+}

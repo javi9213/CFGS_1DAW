@@ -1,0 +1,85 @@
+Sun Jun 17 23:07:59 CEST 2012
+ERROR org.eclipse.rse.ui  RSEG1066U: SUB#0:java.net.ConnectException: Connection refused: connect
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:163)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:184)
+	at org.eclipse.rse.internal.services.files.ftp.FTPService.connect(FTPService.java:411)
+	at org.eclipse.rse.internal.subsystems.files.ftp.connectorservice.FTPConnectorService.internalConnect(FTPConnectorService.java:128)
+	at org.eclipse.rse.internal.subsystems.files.ftp.connectorservice.FTPConnectorService.internalConnect(FTPConnectorService.java:104)
+	at org.eclipse.rse.core.subsystems.AbstractConnectorService$1.run(AbstractConnectorService.java:500)
+	at org.eclipse.rse.core.subsystems.AbstractConnectorService$SafeRunner.run(AbstractConnectorService.java:444)
+	at org.eclipse.rse.core.subsystems.AbstractConnectorService.connect(AbstractConnectorService.java:506)
+	at org.eclipse.rse.ui.operations.SystemFetchOperation.ensureConnected(SystemFetchOperation.java:309)
+	at org.eclipse.rse.ui.operations.SystemFetchOperation.execute(SystemFetchOperation.java:373)
+	at org.eclipse.rse.ui.operations.SystemFetchOperation.run(SystemFetchOperation.java:182)
+	at org.eclipse.rse.ui.view.AbstractSystemViewAdapter.fetchDeferredChildren(AbstractSystemViewAdapter.java:2290)
+	at org.eclipse.ui.progress.DeferredTreeContentManager$1.run(DeferredTreeContentManager.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+--------------------------------------------
+Sun Jun 17 23:08:05 CEST 2012
+ERROR org.eclipse.rse.ui  RSEG1066U: SUB#0:java.net.ConnectException: Connection refused: connect
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:163)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:184)
+	at org.eclipse.rse.internal.services.files.ftp.FTPService.connect(FTPService.java:411)
+	at org.eclipse.rse.internal.subsystems.files.ftp.connectorservice.FTPConnectorService.internalConnect(FTPConnectorService.java:128)
+	at org.eclipse.rse.internal.subsystems.files.ftp.connectorservice.FTPConnectorService.internalConnect(FTPConnectorService.java:104)
+	at org.eclipse.rse.core.subsystems.AbstractConnectorService$1.run(AbstractConnectorService.java:500)
+	at org.eclipse.rse.core.subsystems.AbstractConnectorService$SafeRunner.run(AbstractConnectorService.java:444)
+	at org.eclipse.rse.core.subsystems.AbstractConnectorService.connect(AbstractConnectorService.java:506)
+	at org.eclipse.rse.ui.operations.SystemFetchOperation.ensureConnected(SystemFetchOperation.java:309)
+	at org.eclipse.rse.ui.operations.SystemFetchOperation.execute(SystemFetchOperation.java:373)
+	at org.eclipse.rse.ui.operations.SystemFetchOperation.run(SystemFetchOperation.java:182)
+	at org.eclipse.rse.ui.view.AbstractSystemViewAdapter.fetchDeferredChildren(AbstractSystemViewAdapter.java:2290)
+	at org.eclipse.ui.progress.DeferredTreeContentManager$1.run(DeferredTreeContentManager.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+--------------------------------------------
+Sun Jun 17 23:08:09 CEST 2012
+ERROR org.eclipse.rse.ui  RSEG1066U: SUB#0:java.net.ConnectException: Connection refused: connect
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:163)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:184)
+	at org.eclipse.rse.internal.services.files.ftp.FTPService.connect(FTPService.java:411)
+	at org.eclipse.rse.internal.subsystems.files.ftp.connectorservice.FTPConnectorService.internalConnect(FTPConnectorService.java:128)
+	at org.eclipse.rse.internal.subsystems.files.ftp.connectorservice.FTPConnectorService.internalConnect(FTPConnectorService.java:104)
+	at org.eclipse.rse.core.subsystems.AbstractConnectorService$1.run(AbstractConnectorService.java:500)
+	at org.eclipse.rse.core.subsystems.AbstractConnectorService$SafeRunner.run(AbstractConnectorService.java:444)
+	at org.eclipse.rse.core.subsystems.AbstractConnectorService.connect(AbstractConnectorService.java:506)
+	at org.eclipse.rse.ui.operations.SystemFetchOperation.ensureConnected(SystemFetchOperation.java:309)
+	at org.eclipse.rse.ui.operations.SystemFetchOperation.execute(SystemFetchOperation.java:373)
+	at org.eclipse.rse.ui.operations.SystemFetchOperation.run(SystemFetchOperation.java:182)
+	at org.eclipse.rse.ui.view.AbstractSystemViewAdapter.fetchDeferredChildren(AbstractSystemViewAdapter.java:2290)
+	at org.eclipse.ui.progress.DeferredTreeContentManager$1.run(DeferredTreeContentManager.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+--------------------------------------------
+Sun Jun 17 23:08:24 CEST 2012
+ERROR org.eclipse.rse.ui  Error launching server: Connection Refused.
+Make sure that the DataStore daemon is running on LOCALHOST.
+--------------------------------------------
+Sun Jun 17 23:08:24 CEST 2012
+ERROR org.eclipse.rse.ui  RSEG1242
+--------------------------------------------

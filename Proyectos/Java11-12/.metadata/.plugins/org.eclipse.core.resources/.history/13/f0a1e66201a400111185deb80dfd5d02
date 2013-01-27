@@ -1,0 +1,20 @@
+public class colad {
+
+	private int numElem;
+	
+	public colad(){
+		numElem = 0;
+	}
+	
+	public int getnumElem(){
+		return numElem;
+	}
+	
+	public void push(){		//anadir
+		
+	}
+	
+	public void pop(){		//obtener
+		
+	}
+}

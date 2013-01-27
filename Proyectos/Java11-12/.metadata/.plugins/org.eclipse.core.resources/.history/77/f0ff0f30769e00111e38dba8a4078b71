@@ -1,0 +1,10 @@
+package lista_circular;
+
+public class pilas<T> extends listac {
+	
+	listac<T> pila;
+	
+	public pilas(){
+		
+	}
+}

@@ -1,0 +1,11 @@
+package resueltos;
+
+public class Ejercicio5 {
+
+	StringTokenizer notas;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

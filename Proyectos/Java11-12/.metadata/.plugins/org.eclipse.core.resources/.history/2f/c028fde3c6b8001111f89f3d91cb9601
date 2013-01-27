@@ -1,0 +1,122 @@
+public class pilad {
+
+	private class CElemento{
+		private char dato;
+		private CElemento siguiente;
+		
+		public CElemento(char d){
+			this.dato=d;
+			siguiente=null;
+		}
+	}
+	
+	private int numElem;
+	private CElemento pila;
+	
+	public pilad(){
+		numElem = 0;
+	}
+	
+	public int size(){
+		return numElem;
+	}
+	
+	public void push(char ch){		//anadir
+		CElemento nuevo = new CElemento(ch);
+		if (!pilaVacia()) {
+			nuevo.siguiente = pila.siguiente;
+			pila.siguiente = nuevo;
+		}else{
+			pila = nuevo;
+			pila.siguiente = nuevo;
+		}
+		numElem++;
+	}
+	
+	public char pop(){				//obtener
+		CElemento nuevo = pila.siguiente;
+		char ch = nuevo.dato;
+
+		if(pilaVacia()){
+			System.out.println("Pila vacia");
+		}else{
+			if(nuevo == pila){
+				pila = null;
+			}else{
+				pila.siguiente = nuevo.siguiente;
+			}
+		}
+		numElem--;
+
+		return ch;
+	}
+	
+	public boolean pilaVacia(){
+		return (numElem == 0);
+	}
+	
+	public String toString(char ch){
+		String cadena = "";
+		cadena += String.valueOf(ch);
+		return cadena;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import java.util.*;
+
+public class test {
+
+	public static boolean isIgual(colad c, pilad p) {
+		boolean igual = false;
+		if (c.toString(c.pop()).compareToIgnoreCase(p.toString(p.pop())) == 0)
+			igual = true;
+
+		return igual;
+	}
+
+	public static void main(String[] args) {
+
+		pilad pila = new pilad();
+		colad cola = new colad();
+		ArrayList<Character> ch = new ArrayList<Character>();
+		Scanner lector = new Scanner(System.in);
+		String cadena = "";
+		int i = 0;
+
+		System.out.print("Introduzca palindromo:");
+		cadena = lector.nextLine();
+
+		while (i < cadena.length()) {
+			ch.add(cadena.charAt(i));
+			if (cadena.charAt(i) != ' ') {
+				cola.push(ch.get(i));
+				pila.push(ch.get(i));
+			}
+			i++;
+		}
+
+		if (isIgual(cola, pila)) {
+			System.out.println("La frase o palabra \"" + cadena
+					+ "\" es un palindromo");
+		} else {
+			System.out.println("La frase o palabra \"" + cadena
+					+ "\" NO es un palindromo");
+		}
+	}
+}

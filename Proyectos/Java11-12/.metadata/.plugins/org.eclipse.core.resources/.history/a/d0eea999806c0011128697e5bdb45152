@@ -1,0 +1,17 @@
+/*
+ * asteriscos2.h
+ *
+ *  Created on: 12/03/2012
+ *      Author: JaVi
+ */
+
+#ifndef ASTERISCOS2_H_
+#define ASTERISCOS2_H_
+
+class asteriscos2 {
+public:
+	asteriscos2();
+	virtual ~asteriscos2();
+};
+
+#endif /* ASTERISCOS2_H_ */

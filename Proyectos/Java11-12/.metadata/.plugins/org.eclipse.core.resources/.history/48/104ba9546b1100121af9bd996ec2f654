@@ -1,0 +1,228 @@
+import java.util.*;
+
+public class AppNum {
+
+	//Metodo estatico menu donde mostramos
+	//por pantalla el menu
+	public static void menu(){
+		System.out.println();
+		System.out.println();
+		System.out.println("MENU");
+		System.out.println("//////");
+		System.out.println("1. Introducir digito");
+		System.out.println("2. Eliminar digito");
+		System.out.println("3. Ajustar numero");
+		System.out.println("4. Mostrar numero");
+		System.out.println("5. Es capicua");
+		System.out.println("6. Crápulo");
+		System.out.println("7. Numero Magico en Mijas");
+		System.out.println("8. Orden");
+		System.out.println("9. SALIR");
+		System.out.println();
+		System.out.print("Introduzca opcion a realizar:");
+	}
+	
+	//Metodo estatico que devuelve true o false si el numero
+	//que le pasemos por parametro es capicua o no
+	public static boolean esCapicua(String num){
+		int i = 0;
+		boolean capicua = false;
+		ArrayList<Character> chr = new ArrayList<Character>();
+		while(i<num.length()){
+			chr.add(num.charAt(i));
+			if(chr.get(i).compareTo(chr.get(num.length()-1))==0){
+				capicua = true;
+			}
+			i++;
+		}
+		return capicua;
+	}
+	
+	//Metodo estatico que devuelve el crapulo del numero
+	//que le pasemos
+	public static int crapulo(int num){
+		int crapulo = 0, aux = 0;
+		while(num>10){
+			crapulo += num%10;
+			num = num/10;
+		}
+		
+		while(crapulo>10){
+			aux += crapulo%10;
+			crapulo /= 10;
+		}
+		
+		return aux;
+	}
+	
+	//Metodo estatico que devuelve el numero "Mijas" del
+	//numero que le pasemos por parametro
+	public static int mijas(int num){
+		
+		int mijas = 0, alto = 0, alto3 = 0, cont = 0, aux1 = 0, aux = num;
+		
+		if(num>99){
+			
+			while(aux > 10){
+				alto = aux%10;
+				aux /= 10;
+				if(alto < mijas(aux)){
+					alto = mijas(aux);
+				}
+			}
+			
+			while(num > 10){
+				aux1 = num%10;
+				num /= 10;
+				if(aux1 < mijas(num)){
+					aux1 = mijas(num);
+					cont++;
+					if(cont == 3){  //igual a 3 porque buscamos el tercer digito mas alto
+						alto3 = aux1;
+					}
+				}
+			}
+			
+			mijas = alto - alto3;
+			
+		}else{
+			
+			System.out.println("Este numero no tiene 3 digitos");
+		}
+		
+		return mijas;
+	}
+	
+	//Main de la aplicacion
+	public static void main(String[] args) {
+		
+		int opc = 0, i = 0;
+		Scanner lector = new Scanner(System.in);
+		lista lis = new lista();
+		
+		do{
+			menu();
+			opc = lector.nextInt();
+			
+			switch(opc){
+			
+				case 1:{
+					System.out.print("Introduzca digito:");
+					int dig = lector.nextInt();
+					while(i<dig/10){
+						dig = dig/10;
+						i++;
+					}
+					lis.insertar(lis.size(), dig);
+					i = 0;
+					break;
+				}
+				
+				case 2:{
+					System.out.print("Introduzca posicion a eliminar:");
+					int pos = lector.nextInt();
+					
+					if(pos<lis.size()){
+						lis.supr(pos);
+					}else{
+						System.out.println("Posicion erronea");
+					}
+					
+					break;
+				}
+				
+				case 3:{
+					while(i<lis.size()-1){
+						if((lis.obtener(i)==0)&&(lis.obtener(i+1)==0)){
+							lis.supr(i);
+						}
+						i++;
+					}
+					
+					i = 0;
+					break;
+				}
+				
+				case 4:{
+					while(i<lis.size()){
+						if((lis.obtener(i)==0)&&(lis.obtener(i+1)==0)){
+							lis.supr(i);
+						}
+						System.out.print(lis.obtener(i)+" - ");
+						i++;
+					}
+					
+					i = 0;
+					break;
+				}
+				
+				case 5:{
+					String cadena = "";
+					
+					while(i<lis.size()-1){
+						cadena+=lis.obtener(i);
+						i++;
+					}
+					
+					if(esCapicua(cadena)){
+						System.out.println("Es capicua");
+					}else{
+						System.out.println("NO es capicua");
+					}
+					
+					i = 0;
+					break;
+				}
+				
+				case 6:{
+					int num = 0;
+					while(i<lis.size()-1){
+						num = num * 10 + lis.obtener(i);
+						i++;
+					}
+					
+					System.out.print("El crapulo de este numero es: "+crapulo(num));
+					i = 0;
+					break;
+				}
+				
+				case 7:{
+					int num = 0;
+					while(i<lis.size()-1){
+						num = num * 10 + lis.obtener(i);
+						i++;
+					}
+					
+					if(num>99){
+						System.out.print("El numero Magico en Mijas de este numero es: "+mijas(num));
+					}
+					
+					i = 0;
+					break;
+				}
+				
+				case 8:{
+					while(i<lis.size()-1){
+						
+						if(lis.obtener(i)<lis.obtener(i+1)){
+							System.out.println(lis.obtener(i));
+						}
+						
+						i++;
+					}
+					System.out.println(lis.obtener(i));
+					
+					i = 0;
+					break;
+				}
+				
+				case 9:{
+					opc = 11;
+					System.out.println("SALIR");
+					break;
+				}
+			}	
+			
+		}while((opc>0)&&(opc<9));
+	}
+}
