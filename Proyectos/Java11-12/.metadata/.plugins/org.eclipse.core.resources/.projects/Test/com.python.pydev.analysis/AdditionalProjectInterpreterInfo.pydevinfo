@@ -1,0 +1,76 @@
+-- VERSION_3
+-- START DISKCACHE
+C:\Users\JaVi\Documents\Java\.metadata\.plugins\org.eclipse.core.resources\.projects\Test\com.python.pydev.analysis\v1_indexcache
+.v1_indexcache
+helloworld|0|C:\Users\JaVi\Documents\Java\Test\src\helloworld.py
+-- END DISKCACHE
+-- START DICTIONARY
+20
+1=helloworld
+4=Numero
+8=Base
+14=Operacion.__init__
+9=Clase
+6=Arbol
+19=Clase.__init__
+15=Arbol.inserta
+2=InSet
+11=InSet.__setitem__
+17=MiExcepcion.__init__
+3=Operacion
+12=InSet.insert
+16=Arbol.__init__
+13=InSet.__init__
+5=AST
+18=Base.__init__
+10=MiExcepcion
+7=Derivada
+20=Numero.__init__
+-- END DICTIONARY
+-- START TREE 1
+18
+A|1|A!11@
+a|1|a!11@
+arb|4|arbol2!11@arbol_final!11@arbol1!11@Arbol!9@
+ast|1|AST!9@
+bas|1|Base!9@
+cad|1|cadena!11@
+cla|1|Clase!9@
+cre|1|crea_arbol!10@
+der|1|Derivada!9@
+fib|1|fib!10@
+ins|2|InSet!9@inserta!10@
+mie|1|MiExcepcion!9@
+num|5|num1!11@num3!11@Numero!9@num2!11@num4!11@
+ope|1|Operacion!9@
+per|1|pertenece!10@
+rad|1|radio!11@
+s|1|s!11@
+tel|1|tel!11@
+-- END TREE
+-- START TREE 2
+23
+A|1|A!2&11@
+B|1|B!2&11@
+__a|1|__and__!2&10@
+__g|1|__getitem__!2&10@
+__i|9|__init__!2&10@__init__!3&10@__init__!4&10@__init__!5&10@__init__!6&10@__init__!7&10@__init__!8&10@__init__!9&10@__init__!10&10@
+__l|1|__len__!2&10@
+__o|1|__or__!2&10@
+__s|3|__str__!2&10@__setitem__!2&10@__sub__!2&10@
+c|3|c!11&11@c!12&11@c!13&11@
+dch|3|dcha!14&11@dcho!15&11@dcho!16&11@
+elt|1|elto!16&11@
+est|1|esta!6&10@
+f1|1|f1!8&10@
+f2|2|f2!7&10@f2!8&10@
+ins|2|insert!2&10@inserta!6&10@
+int|3|interperta!5&10@interpreta!3&10@interpreta!4&10@
+izd|3|izda!14&11@izdo!15&11@izdo!16&11@
+men|1|mensaje!17&11@
+mos|3|mostrar!3&10@mostrar!4&10@mostrar!5&10@
+num|3|numero_operaciones!3&10@numero_operaciones!4&10@numero_operaciones!5&10@
+op|1|op!14&11@
+v|2|v!18&11@v!19&11@
+val|1|valor!20&11@
+-- END TREE
