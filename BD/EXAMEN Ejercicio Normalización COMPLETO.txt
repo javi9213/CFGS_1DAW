@@ -1,0 +1,37 @@
+Se tiene la siguiente relación que contiene información sobre los empleados de una empresa:
+
+R(NEmp, DNI, Edad, Dir, CDep, NDep, DJef, CPro, NPro, Año, Imp)
+
+NEmp: nombre del empleado
+DNI: DNI del empleado
+Edad: edad del empleado
+Dir: dirección del empleado
+CDep: cód. de departamento al que pertenece el empleado
+NDep: nombre del departamento
+DJef: DNI del empleado que es jefe de departamento
+CPro: cód. de un proyecto en el que participa el empleado
+NPro: nombre del proyecto
+Año: año de realización del proyecto
+Imp: importe del proyecto
+
+Suponiendo que las claves primarias son DNI, CDEP y CPRO
+
+2FN -Dependencias funcionales-
+
+DNI --> NEmp, Edad, Dir
+CDEP --> NDep
+CPRO --> NPro, Año, Imp
+DNI+CDEP --> DJef
+
+R1 (#DNI, #CDEP, #CPRO)
+
+R2 (DNI, NEmp, Edad, Dir)
+
+R3 (CDEP, NDep)
+
+R4 (CPRO, NPro, Año, Imp)
+
+R5 (DNI+CDEP, DJef)
+
+
+No veo aparente 3FN
