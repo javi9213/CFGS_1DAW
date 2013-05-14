@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<centro_educativo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="Examen.xsd">
+    
+    <estudiante codigo="1">
+        <nombre>Eufrasio Pérez López</nombre>
+        <edad>18</edad>
+        <asignaturas Nombre="Lenguajes de Marcas" calificacion="3"/>
+        <asignaturas Nombre="Formación y Orientación Laboral" calificacion="9"/>
+        <asignaturas Nombre="Programación" calificacion="4"/>
+        <asignaturas Nombre="Bases de Datos" calificacion="7"/>
+        <asignaturas Nombre="Sistemas Informáticos" calificacion="5"/>
+        <asignaturas Nombre="Entornos de Desarrollo" calificacion="6"/>
+    </estudiante>
+    
+    <estudiante codigo="2">
+        <nombre>Romualdo Jiménez Sahagún</nombre>
+        <edad>23</edad>
+        <asignaturas Nombre="Lenguajes de Marcas" calificacion="4"/>
+        <asignaturas Nombre="Formación y Orientación Laboral" calificacion="10"/>
+        <asignaturas Nombre="Programación" calificacion="3"/>
+        <asignaturas Nombre="Bases de Datos" calificacion="5"/>
+        <asignaturas Nombre="Sistemas Informáticos" calificacion="5"/>
+        <asignaturas Nombre="Entornos de Desarrollo" calificacion="6"/>
+    </estudiante>
+    
+</centro_educativo>
