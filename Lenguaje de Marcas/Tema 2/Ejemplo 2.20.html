@@ -1,0 +1,97 @@
+<html>
+<head>
+<title>Encuesta al profesorado</title>
+<meta http-equiv="Content-Type" content="text/html"; charset="iso-8859-1">
+<style>
+<!--
+BODY { font-family: Verdana; font-size: 10pt; background-color: rgb(0,128,128) }
+LEGEND { font-weight: bold; text/align: center; font-family: Verdana; font-size: 12 pt }
+LABEL { color: rgb(0,128,128); font-weight: bold }
+FIELDSET {background-color: rgb(192,192,192); margin-botton: 10px; padding: 10px }
+-->
+</style>
+</head>
+<body>
+<h1>¿Por favor! Si es usted docente responda a las siguientes cuestiones:<br>
+</h1>
+<input type="text" name="inactivo" size="100" value="Este formulario se visualizar&aacute; mejor con navegadores de la &uacute;ltima generaci&oacute;n"
+disabled readonly>
+<form action="mailto:alsastre@redestb.es" method="post" enctype="text/plain">
+<input type="hidden" name="tipo" value="Docentes"><FIELDSET>
+<LEGEND accesskey="1">
+1. Informaci&oacute;n personal</LEGEND>
+<label for="aa">Apellidos:</label><input NAME="Apellidos" type="text" size="30" id="aa"
+tabindex="1"> <label for="nombre">Nombre:</label><input type="text" name="Nombre" size="20" id="nombre" tabindex="2"><br>
+<label for="fn">Fecha de nacimiento:</label><input type="text" name="Nacido" SIZE="8" id="fn" tabindex="3">
+<label>Sexo:</label><input TYPE="RADIO" VALUE="Masculino" tabindex="4" name="Sexo"> Hombre
+<input TYPE="RADIO" VALUE="Femenino" tabindex="5" name="Sexo"> Mujer
+</FIELDSET>
+<FIELDSET>
+<LEGEND accesskey="2">
+2. Informaci&oacute;n de contacto</LEGEND>
+<label for="telefono">Tel&eacute;fono</label><input NAME="Telefono" SIZE="10" MAXLENGHT="10" id="telefono" tabindex="6">
+<label for="email">Email:</label><input type="text" name="email" size="15" id="email" tabindex="7">
+</FIELDSET>
+<FIELDSET>
+<LEGEND accesskey="3">
+3. Datos profesionales</LEGEND>
+<label for="ct">Centro de trabajo</label><input type="text" name="Centro" size="30" id="ct" tabindex="12">
+<label for="localidad">Localidad:</label><input type="text" name="localidad" size="30" id="localidad" tabindex="13"><BR>
+<label for="esfun">¿Es funcionario?</label><input type="checkbox" name="Funcionario" value="ON" id="esfun" tabindex="14">
+<label for="nrp">NRP:</label><input type="password" name="NRP" size="15" id="nrp" tabindex="15">
+<label for="sn>Seminario/Nivel:</label>
+<select NAME="Seminario" size="2" id="sn" multiple tabindex="16">
+<option>Lengua y Literatura </option>
+<option>Matem&aacute;ticas </option>
+<option>Geograf&iacute;a e Historia </option>
+<option>Biolog&iacute;a y Geolog&iacute;a </option>
+<option>Tecnolog&iacute;a </option>
+<option>F&iacute;sica y Qu&iacute;mica </option>
+<option>Educaci&oacute;n Pl&aacute;stica y Visual </option>
+<option>M&uacute;sica </option>
+<option>Educaci&oacute;n F&iacute;sica </option>
+<option>Cultura y Lenguas Cl&aacute;sicas </option>
+<option selected>&Eacute;tica y Filosof&iacute;a </option>
+<option>Primer Ciclo ESO </option>
+<option>Segundo ciclo ESO </option>
+<option selected>Bachillerato </option>
+</select>
+</FIELDSET>
+<FIELDSET>
+<LEGEND accesskey="4">
+4. Por favor, facil&iacute;tanos la siguiente informaci&oacute;n:</LEGEND>
+<label for="Vias">¿C&oacute;mo lleg&oacute; hasta aqu&iacute;?</label>
+<select name="Vias" id="Vias" size="1" tabindex="17">
+<option value="Azar">Al azar</option>
+<option value="URI">Alguien le indic&oacute; el URI de la p&aacute;gina</option>
+<option value="Buscador">A trav&eacute;s de un programa buscador</option>
+<option value="Enlace">Mediante un enlace desde otra p&aacute;gina</option>
+</select>
+<P>
+<label for="comentarios">Introduzca aqu&iacute; sus comentarios:</label><BR>
+<textarea name="Comentarios" rows="5" name="comentarios" cols="60" id="comentarios" tabindex="18"></textarea>
+<blockquote>
+<label>¿Desear&iacute;a m&aacute;s informaci&oacute;n sobre ... ?</label><br>
+<input TYPE="CHECKBOX" NAME="Mas" value="audio" checked tabindex="19">
+Material
+audiovidual<br>
+<input TYPE="CHECKBOX" NAME="opcion" value="etext" checked tabindex="20">
+Textos
+electr&oacute;nicos<br>
+<input TYPE="CHECKBOX" NAME="opcion" value="libros" tabindex="21"> Libros
+de texto<br>
+<input TYPE="CHECKBOX" NAME="opcion" value="diseños" tabindex="22">
+Diseños curriculares<br>
+<input TYPE="CHECKBOX" NAME="opcion" value="leyes" tabindex="23">
+Legislaci&oacute;n educativa</p>
+</blockquote>
+</FIELDSET>
+<BUTTON name="submit" value="submit" type="submit" accesskey="e" tabindex="25">
+[E]nviar datos&nbsp; <img src="images/vale.gif" alt="Enviar los datos del
+formulario"
+width="32" height="30" align="middle"></BUTTON><BUTTON name="reset" value="reset"
+accesskey="b" tabindex="26"> [B]orrar datos&nbsp; <img src="images/novale.gif" alt="Borrar los datos introducidos" width="32" height="30" align="middle">
+</BUTTON>
+</form>
+</body>
+</html>
