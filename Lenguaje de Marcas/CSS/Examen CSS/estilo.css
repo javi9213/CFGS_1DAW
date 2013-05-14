@@ -1,0 +1,136 @@
+#contenedor{
+	width:799px;
+	margin:auto;
+}
+#cabecera{
+	height:240px;
+	background-image:url("imagenes/header.jpg");
+	background-repeat:no-repeat;
+	margin:auto;
+}
+#logo{
+	height:120px;
+	width:240px;
+	margin-left:500px;
+	margin-top:30px;
+}
+#central{
+	background-image:url("imagenes/content_bg.gif");
+	margin-right:83px;
+}
+#principal{
+	min-height:300px;
+	width:500px;
+	margin-top:-18px;
+}
+#secundaria{
+	min-height:300px;
+	width:280px;
+	float:right;
+	border-left:2px solid white;
+	margin-top:10px;
+}
+.clear{
+
+}
+#pie{
+	height:30px;
+}
+body{
+	background-color:#a6bf79;
+}
+.p{
+	font-family:"Arial", Times, serif;
+	position:absolute;
+	float:top;
+	font-weight:bold;
+	color:white;
+	margin-right:800px;
+	margin-top:100px;
+	margin-left:50px;
+}
+.titulo{
+	font-family:"Arial", Times, serif;
+	font-style:italic;
+	margin-right:900px;
+	text-align:center;
+	margin-left:75px;
+	position:absolute;
+	float:top;
+	color:white;
+}
+.link{
+	font-family:"Arial", Times, serif;
+	margin-top:200px;
+}
+#menu{
+	border:3px solid white;
+	margin-right:83px;
+}
+#table{
+	text-align:center;
+	display:inline;
+}
+.td{
+	font-family:"Arial", Times, serif;
+	font-size:15px;
+	text-align:center;
+	color:white;
+	padding-right:15px;
+	padding-left:15px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.menup{
+	text-decoration:none;
+	color:white;
+	
+}
+a:hover{color:black;}
+.h3{
+	font-family:"Arial", Times, serif;
+	font-weight:bold;
+	padding-right:30px;
+	padding-left:40px;
+	padding-top:25px;
+	padding-bottom:5px;
+}
+.pp{
+	padding-left:40px;
+	font-family:"Arial", Times, serif;
+	font-size:15px;
+	text-align:left;
+}
+.imag{
+	padding-left:40px;
+}
+.imag1{
+	padding-left:10px;
+}
+.un{
+	font-family:"Arial", Times, serif;
+	color:#a6bf79;
+	padding-right:30px;
+	padding-left:40px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.orange{
+	font-family:"Arial", Times, serif;
+	padding-right:30px;
+	padding-left:40px;
+	margin-top:-20px;
+	color:orange;
+}
+.pp1{
+	padding-left:40px;
+	font-family:"Arial", Times, serif;
+	font-size:15px;
+	text-align:left;
+	margin-right:10px;
+}
+.pie1{
+	text-align:center;
+	font-family:"Arial", Times, serif;
+	font-size:10px;
+}

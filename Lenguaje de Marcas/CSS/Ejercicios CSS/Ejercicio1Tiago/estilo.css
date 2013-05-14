@@ -1,0 +1,36 @@
+div.principal{
+	margin-left:400px;
+	margin-right:400px;
+}
+div.encabezado{
+	height:125px;
+	background-color:#1E90FF;
+}
+
+div.menu{
+	height:30px;
+	background-color:#00BFFF;
+	margin-top:10px;
+}
+
+div.float{
+	margin-top:10px;
+	height:200px;
+}
+
+div.lorem{
+	float:left;
+	margin-right:150px;
+	background-color:#4169E1;
+}
+
+div.lateral{
+	margin-left:10px;
+	background-color:#87CEFA;
+}
+
+div.pie{
+	height:125px;
+	margin-top:10px;
+	background-color:#1E90FF;
+}

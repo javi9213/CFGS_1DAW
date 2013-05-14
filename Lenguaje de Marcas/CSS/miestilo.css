@@ -1,0 +1,15 @@
+<!--
+		H1 { font-family: Century Schoolbook, Arial; background-color: rgb(0, 0, 0);
+		color: rgb(192, 192, 192); letter-spacing: 2px; fot-weight: bold;
+		text-align: center; border: thin ouset rgb(192, 192, 192); maring-left: 25px;
+		margin-top: 10px; padding: 5px }
+		H2 { font-family: Century Schoolbook, Arial; color: rgb(128, 128, 128); 
+		letter-spacing: 10px; font-weight: bold; text-align: center;
+		font-style: oblique; border: medium none; margin-left: 25px; margin-top: 10px;
+		padding: 5px; }
+		DIV.cuerpo { font-family: Book Antiqua, Arial; font-size: 12pt; color: rgb(128, 128, 128);
+		text-indent: 50px; line-height: 20px; text-align: justify; margin-left: 25px; }
+		SPAN.cursiva { font-style: oblique }
+		DIV.fuente { font-family: Arial; font-size: 8pt; text-align: right; border-bottom: 1px dashed rgb(128, 128, 128);
+		margin-lrft: 25px }
+		-->

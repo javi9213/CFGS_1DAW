@@ -1,0 +1,63 @@
+body{
+	background-color:#009999;
+}
+div.principal{
+	
+}
+div.google{
+	background-color:#6495ED;
+	height:200px;
+	width:900px;
+	margin:10px auto;
+}
+img.imag{
+	position:relative;
+	top:20px;
+	left:500px;
+}
+div.menu{
+	height:40px;
+	background-color:#7FFFD4;
+	margin:auto;
+	width:900px;
+	margin-top:-10px;
+}
+div.medio{
+	background-color:#00CCCC;
+	width:900px;
+	min-height:400px;
+	margin:auto;
+}
+div.izda{
+	float:left;
+	width:180px;
+	border:1px dashed;
+	border-color:#CCC;
+	margin:10px;
+	min-height:200px;
+}
+div.drcha{
+	float:right;
+	width:180px;
+	border:1px dashed;
+	border-color:#CCC;
+	margin:10px;
+	min-height:200px;
+}
+div.txt{
+	text-align:justify;
+	width:590px;
+	margin-left:190px;
+}
+div.pie{
+	height:40px;
+	background-color:#7FFFD4;
+	margin:auto;
+	width:900px;
+	margin-top:130px;
+}
+
+
+
+
+

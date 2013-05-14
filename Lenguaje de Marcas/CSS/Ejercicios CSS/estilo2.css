@@ -1,0 +1,219 @@
+	/*###########################################################*/
+						/*etiquetas generales*/
+ 
+	/*##########################################################*/
+
+ body
+{
+	background-color:#cccccc;
+} 
+
+	/*###########################################################*/
+							/* ID Styles */
+							
+	/*###########################################################*/
+
+#img1 {
+	/*Si con width y height tratas de establecer el tamaño de la imagen aquí, mal hecho.
+	Se hace en el HTML con las mismas propiedades. */
+	width:110px;
+	height:130px;
+	margin:12px;
+	border:0px;
+	float:right;	
+}
+
+	/*##########################################################*/	
+							/*class style*/
+	
+	/*##########################################################*/
+	
+/*############################# fuentes ##########################*/
+
+.fuentenormal
+{
+	font-family:courier,monospace;
+	font-size:20px;
+	font-weight:bold;
+	color:#55000a;
+	text-align:justify;
+	/*El valor por defecto de spacing-spacing es 100%, puedes quitarlo sin problemas. */
+	letter-spacing:100%;
+	/*El valor por defecto de letter-spacing es 100%, puedes quitarlo sin problemas. */
+	line-height:100%;
+	vertical-align:;
+	/*El valor por defecto de word-spacing es 100%, puedes quitarlo sin problemas. */
+	word-spacing:100%;
+}
+.fuentederecha
+{	
+	font-family:courier,monospace;
+	font-style:oblique;
+	font-size:14px;
+	font-weight:ligther;
+	color:#33000d;
+	text-align:right;
+}
+
+.fuenteespecial
+{
+	font-family:Monaco,monospace;
+	font-style:italic;
+	font-size:30px;
+	font-weight:900;
+	font-variant:small-caps;
+	color:#0000ff;
+	text-align:center;
+	text-transform:capitalize;
+	letter-spacing:110%;
+	/*El valor por defecto de line-height creo que es 100%, puedes quitarlo sin problemas. */
+	line-height:100%;
+	/*No entiendo para qué sirve el vertical-align pero no es necesario en ningún momento, puedes quitarlo. */
+	vertical-align:text-bottom;
+	word-spacing:105%;
+	/* para comprobaciones
+	background-color:#ffffff;*/
+}
+/*Si te interesa, infórmate sobre la propiedad font: ; de cómo utilizarla. Ahorrarás muchas líneas. */
+.fuentecentrada
+{
+	font-family:Monaco,monospace;
+	font-style:italic;
+	font-size:10px;
+	font-weight:300;
+	font-variant:small-caps;
+	color:#ffffff;
+	text-align:center;
+}
+
+
+
+/*###########################caja top #######################*/
+
+.cajatop {
+	/* Lo he retocado completamente y se queda simplemente en esto =) */
+	width: 800px; /* Definimos un ancho a la capa contenedora */
+	margin: 0 auto; /* Y ahora lo centramos */
+	padding: 0 25px; /* Relleno para separar el contenido interior del límite de la capa contenedora */
+	background-color:#abcdef;
+}
+
+.cajatexto
+{
+	/*De las más difíciles de explicar, a ver...
+	Con esta propiedad le indicas a la capa que contiene el elemento con float (en este caso la imagen con float: right;) que ocupe todo el espacio que ocuparía si la imagen estuviese en el flujo normal del documento (que ahora no lo está debido al float), y por eso la imagen no se queda afuera como parecía antes.)
+	
+	*/
+	overflow: hidden;
+}
+
+
+
+.titulotop
+{
+	/* Puedes borrarlos, no creo que los utilices en principio */
+}
+
+div.menutop
+{
+	background-color:#00ffff;
+	text-align:center;
+	/* así también se centra este div...*/
+	/*Con text-align no alineas capas. Solo textos e imágenes que están contenidas en un <p> */
+}
+
+ul.menutop
+{
+	list-style-type:none;
+	margin:0px;
+	/*Mucha redudancia con los padding, cámbialo simplemente por margin: 0 6px; y ahora lo mismo que esos 3 padding juntos*/
+	padding:0px;
+	padding-top:6px;
+	padding-bottom:6px;
+}
+
+li.menutop
+{
+	display:inline;
+	/*no se si esto lo sabías, consiste en poner en una línea elementos de bloque como las <li>*/
+	/*Claro que sí, es la base de todos los menús de enlaces horizontales. Enhorabuena por descubrirlo solo ^^ */
+}
+
+a:link.menutop, a:visited.menutop
+{
+	font-weight:bold;
+	color:#ffffff;
+	background-color:#00ffff;
+	text-align:center;
+	margin:0px;
+	padding:6px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+a:hover.menutop, a:active.menutop {
+	/*Te comento: si la pareja hexadecimal es igual, como el caso: 00 DD DD, es 0 D D y funciona igual y es más breve =) */
+	background-color:#00dddd;
+	color:yellow;
+	padding:11px 6px;
+}/* he utilizado unos cambios para a:hover que se reflejan al pasar por lo alto como si fuera un poco 3d, ya se que CSS1 no
+contempla ciertas cosas, como rotatoria de imágnes efectos de sombras, pero me he documentado un poco*/
+
+
+
+/*################################## caja down ###########################*/
+
+
+
+.cajadown {
+	/* La parte baja la definimos igual que la capa contenedora. Si la capa contenedora hubiera cubierto la parte baja no hubiera sido necesario redefinirlo, ya acogería el tamaño del padre (la capa contenedora.) */
+	width: 800px;
+	margin: 0 auto;
+	padding: 0 25px;
+	background-color:#abcdef;
+}
+
+div.menudown
+{
+	background-color:#abcdef;
+	text-align:center;
+}
+
+ul.menudown
+{
+	list-style-type:none;
+	/* Más de lo mismo con los padding, no es incorrecto, pero es más breve y hace el mismo efecto: padding: 0 4px;*/
+	padding-top:4px;
+	padding-bottom:4px;
+}
+
+a:link.menudown, a:visited.menudown
+{
+	font-weight:ligther;
+	color:#ffffff;
+	background-color:gray;
+	text-align:center;
+	margin:0px;
+	padding:4px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+/* si te fijas en estos elementos son casi idénticos a los de arriba puede ser que haya una forma más simple de hacer esto sin repetir tanto
+pero es que con las explicaciones del profe, le tengo pánico al exámen que luego suele ser mucho más rebuscado*/
+/*No hay ningún problema en utilizar esta técnica, es más, es lo más correcto. */
+a:hover.menudown, a:active.menudown
+{
+	font-weight:bolder;
+	background-color:#abcdef;
+	color:red;
+	/*Aquí has usado la forma acortada sin problemas, jajaja */
+	padding:7px 4px;
+}
+
+div.derecha {
+	position:relative;
+	left:70%;	
+	width:30%;
+	/*esto también es buena cosa que me di cuenta ayer le dás un tamaño aproximado ala caja y luego le das un margen para
+	que se pegue del todo hacia un lado*/
+}

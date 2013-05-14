@@ -1,0 +1,134 @@
+A:link, A:visited, A:hover, A:active
+{ 
+text-decoration: none;
+}
+@font-face
+{
+font-family: GillSansMTPro-Book;
+src: url("fonts/GillSansMTPro-Book.otf") format("opentype");
+}
+body
+{
+background-color:rgb(215, 230, 239);
+}
+div
+{
+margin: 0 auto;
+}
+#wrapper
+{
+position:absolute;
+left:50%;
+width:700px;
+margin-left:-350px;
+background-color:rgb(245, 245, 245);
+border:1px solid rgb(229, 229, 229);
+border-radius:5px;
+-moz-border-radius:5px; /* Firefox */
+-webkit-border-radius:5px; /* Safari y Chrome */
+}
+#titulo
+{
+position:relative;
+height:55px;
+width:700px;
+top:20px;
+background-color:rgb(245, 245, 245);
+}
+#fondo
+{
+position:relative;
+height:42;
+width:660;
+left:-20;
+margin-right:2px;
+background-color:rgb(56, 105, 160);
+}
+#menu ul
+{
+margin:0;
+padding:0;
+list-style-type:none;
+}
+#menu ul li
+{
+display:table-cell;
+}
+#menu ul li a
+{
+position:relative;
+padding:11px;
+left:75px;
+color:rgb(245, 245, 245);
+background-color:rgb(56, 105, 160);
+line-height: 2.5em; /* Alineación vertical */
+}
+#menu ul li a:hover
+{
+background-color:rgb(51, 51, 51);
+}
+#contenido
+{
+position:relative;
+height:355px;
+width:660px;
+top:-15px;
+}
+#footer
+{
+position:relative;
+top:553px;
+height:98px;
+width:700px;
+background-color:rgb(56, 105, 160);
+border:1px solid rgb(229, 229, 229);
+line-height: 1em; /* Alineación vertical */
+border-radius:5px;
+-moz-border-radius:5px; /* Firefox */
+-webkit-border-radius:5px; /* Safari y Chrome */
+}
+h1
+{
+font-size: 30px;
+font-family: GillSansMTPro-Book;
+color:rgb(51, 51, 51);
+text-align:center;
+}
+h2
+{
+font-size: 17px; 
+font-family: GillSansMTPro-Book;
+color:rgb(245, 245, 245);
+text-align:center;
+}
+h3
+{
+font-size: 13px;
+font-family: GillSansMTPRo-Book;
+color:rgb(51, 51, 51);
+text-align:justify;
+}
+h4
+{
+font-size: 10px;
+font-family: GillSansMTPro-Book;
+font-style:italic;
+color:rgb(51, 51, 51);
+text-align:right;
+margin-right:150px;
+}
+h5
+{
+font-size: 13px;
+font-family: GillSansMTPro-Book;
+font-style:italic;
+color:rgb(245, 245, 245);
+}
+h6
+{
+text-align:center;
+margin-right:-550px;
+line-height: 1em;
+color:rgb(245, 245, 245);
+}
+
