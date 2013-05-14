@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<concesionario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:SchemaLocation="EjercicioPro.xsd">
+
+	<coches>
+		<cod_coche>123456</cod_coche>
+		<marca>Peugeot</marca>
+		<modelo>307sw</modelo>
+		<matricula>9999FWY</matricula>
+		<cv>200</cv>
+		<plazas num_puertas="5">7</plazas>
+	</coches>
+
+	<coches>
+		<cod_coche>987654</cod_coche>
+		<marca>Renault</marca>
+		<modelo>Clio</modelo>
+		<matricula>6541DGR</matricula>
+		<cv>126</cv>
+		<plazas num_puertas="3">5</plazas>
+	</coches>
+	
+	<coches>
+		<cod_coche>654123</cod_coche>
+		<marca>Opel</marca>
+		<modelo>Astra</modelo>
+		<matricula>1596GHO</matricula>
+		<cv>135</cv>
+		<plazas num_puertas="5">5</plazas>
+	</coches>
+
+</concesionario>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE comunidad SYSTEM "4.4Casopractico.dtd">
+
+<comunidad>
+
+	<vecinos>
+		<cod_vecino carg="presidente">1234</cod_vecino>
+		<nombre>Jose</nombre>
+		<apellidos>López</apellidos>
+		<portal>777</portal>
+		<pisoyletra>3A</pisoyletra>
+		<cod_cuenta_ord>7896543210</cod_cuenta_ord>
+	</vecinos>
+	
+	<vecinos>
+		<cod_vecino carg="vicepresidente">5678</cod_vecino>
+		<nombre>Javier</nombre>
+		<apellidos>Ruiz</apellidos>
+		<portal>666</portal>
+		<pisoyletra>4C</pisoyletra>
+		<cod_cuenta_ord>6543219870</cod_cuenta_ord>
+	</vecinos>
+	
+	<vecinos>
+		<cod_vecino carg="ninguno">9012</cod_vecino>
+		<nombre>Roman</nombre>
+		<apellidos>Gutiérrez</apellidos>
+		<portal>555</portal>
+		<pisoyletra>6F</pisoyletra>
+		<cod_cuenta_ord>3214569870</cod_cuenta_ord>
+	</vecinos>
+
+</comunidad>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<imprenta xmlns:ejem="http://dominio.com/rutaejem">
+	<ejem:libro>
+		<ejem:titulo>Misterio del Gato Comediante</ejem:titulo>
+		<ejem:autores>Enid Blyton</ejem:autores>
+		<ejem:editorial>RBA Libros</ejem:editorial>
+		<ejem:fecha_de_publicacion>2009</ejem:fecha_de_publicacion>
+		<ejem:isbn>9788498674378</ejem:isbn>
+	</ejem:libro>
+
+	<ejem:libro>
+		<ejem:titulo>Las Claves de la Argumentacion</ejem:titulo>
+		<ejem:autores>Anthony Weston</ejem:autores>
+		<ejem:editorial>Ariel</ejem:editorial>
+		<ejem:fecha_de_publicacion>2011</ejem:fecha_de_publicacion>
+		<ejem:isbn>9788434413689</ejem:isbn>
+	</ejem:libro>
+
+	<ejem:libro>
+		<ejem:titulo>El Cuerno de Maltea</ejem:titulo>
+		<ejem:autores>Jose Antonio Ramirez Lozano</ejem:autores>
+		<ejem:editorial>Algaida</ejem:editorial>
+		<ejem:fecha_de_publicacion>2011</ejem:fecha_de_publicacion>
+		<ejem:isbn>9788498776089</ejem:isbn>
+	</ejem:libro>
+
+	<ejem:libro>
+		<ejem:titulo>Mil anios del caballo en el arte hispanico</ejem:titulo>
+		<ejem:autores>VV.AA., SOCIEDAD ESTATAL DE CONMEMORACIONES CULTURALES, S.A.</ejem:autores>
+		<ejem:editorial>VV.AA., SOCIEDAD ESTATAL DE CONMEMORACIONES CULTURALES, S.A.</ejem:editorial>
+		<ejem:fecha_de_publicacion>2001</ejem:fecha_de_publicacion>
+		<ejem:isbn>9788495486172</ejem:isbn>
+	</ejem:libro>
+
+	<ejem:libro>
+		<ejem:titulo>Godel: La logica de los escepticos</ejem:titulo>
+		<ejem:autores>Javier Fresan</ejem:autores>
+		<ejem:editorial>Nivola Libros y Ediciones S.L.</ejem:editorial>
+		<ejem:fecha_de_publicacion>2008</ejem:fecha_de_publicacion>
+		<ejem:isbn>9788496566774</ejem:isbn>
+	</ejem:libro>
+
+	<ejem:libro>
+		<ejem:titulo>Tom Sawyer: Novela grafica</ejem:titulo>
+		<ejem:autores>VV.AA. Brunio</ejem:autores>
+		<ejem:editorial>VV.AA. Brunio</ejem:editorial>
+		<ejem:fecha_de_publicacion>2010</ejem:fecha_de_publicacion>
+		<ejem:isbn>9788421684436</ejem:isbn>
+	</ejem:libro>
+
+	<ejem:libro>
+		<ejem:titulo>Zombies 2</ejem:titulo>
+		<ejem:autores>VV.AA. Minotauro</ejem:autores>
+		<ejem:editorial>VV.AA. Minotauro</ejem:editorial>
+		<ejem:fecha_de_publicacion>2011</ejem:fecha_de_publicacion>
+		<ejem:isbn>9788445078662</ejem:isbn>
+	</ejem:libro>
+
+	<ejem:libro>
+		<ejem:titulo>Un mes con Montalbano</ejem:titulo>
+		<ejem:autores>Andrea Camilleri</ejem:autores>
+		<ejem:editorial>SALAMANDRA (PUBLICACIONES Y EDICIONES SALAMANDRA, S.A.)</ejem:editorial>
+		<ejem:fecha_de_publicacion>2009</ejem:fecha_de_publicacion>
+		<ejem:isbn>9788478887699</ejem:isbn>
+	</ejem:libro>
+
+	<ejem:libro>
+		<ejem:titulo>El increible ninio comelibros</ejem:titulo>
+		<ejem:autores>Oliver Jeffers</ejem:autores>
+		<ejem:editorial>Fondo de Cultura Economica de Espania S.L.</ejem:editorial>
+		<ejem:fecha_de_publicacion>2007</ejem:fecha_de_publicacion>
+		<ejem:isbn>9789681682521</ejem:isbn>
+	</ejem:libro>
+
+	<ejem:libro>
+		<ejem:titulo>La siesta asesinada</ejem:titulo>
+		<ejem:autores>Philippe Delerm</ejem:autores>
+		<ejem:editorial>Tusquets Editores</ejem:editorial>
+		<ejem:fecha_de_publicacion>2011</ejem:fecha_de_publicacion>
+		<ejem:isbn>9788483107782</ejem:isbn>
+	</ejem:libro>
+</imprenta>

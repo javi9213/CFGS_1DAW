@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<imprenta>
+	<libro>
+		<titulo>Misterio del Gato Comediante</titulo>
+		<autores>Enid Blyton</autores>
+		<editorial>RBA Libros</editorial>
+		<fecha_de_publicacion>2009</fecha_de_publicacion>
+		<isbn>9788498674378</isbn>
+	</libro>
+
+	<libro>
+		<titulo>Las Claves de la Argumentacion</titulo>
+		<autores>Anthony Weston</autores>
+		<editorial>Ariel</editorial>
+		<fecha_de_publicacion>2011</fecha_de_publicacion>
+		<isbn>9788434413689</isbn>
+	</libro>
+
+	<libro>
+		<titulo>El Cuerno de Maltea</titulo>
+		<autores>Jose Antonio Ramirez Lozano</autores>
+		<editorial>Algaida</editorial>
+		<fecha_de_publicacion>2011</fecha_de_publicacion>
+		<isbn>9788498776089</isbn>
+	</libro>
+
+	<libro>
+		<titulo>Mil anios del caballo en el arte hispanico</titulo>
+		<autores>VV.AA., SOCIEDAD ESTATAL DE CONMEMORACIONES CULTURALES, S.A.</autores>
+		<editorial>VV.AA., SOCIEDAD ESTATAL DE CONMEMORACIONES CULTURALES, S.A.</editorial>
+		<fecha_de_publicacion>2001</fecha_de_publicacion>
+		<isbn>9788495486172</isbn>
+	</libro>
+
+	<libro>
+		<titulo>Godel: La logica de los escepticos</titulo>
+		<autores>Javier Fresan</autores>
+		<editorial>Nivola Libros y Ediciones S.L.</editorial>
+		<fecha_de_publicacion>2008</fecha_de_publicacion>
+		<isbn>9788496566774</isbn>
+	</libro>
+
+	<libro>
+		<titulo>Tom Sawyer: Novela grafica</titulo>
+		<autores>VV.AA. Brunio</autores>
+		<editorial>VV.AA. Brunio</editorial>
+		<fecha_de_publicacion>2010</fecha_de_publicacion>
+		<isbn>9788421684436</isbn>
+	</libro>
+
+	<libro>
+		<titulo>Zombies 2</titulo>
+		<autores>VV.AA. Minotauro</autores>
+		<editorial>VV.AA. Minotauro</editorial>
+		<fecha_de_publicacion>2011</fecha_de_publicacion>
+		<isbn>9788445078662</isbn>
+	</libro>
+
+	<libro>
+		<titulo>Un mes con Montalbano</titulo>
+		<autores>Andrea Camilleri</autores>
+		<editorial>SALAMANDRA (PUBLICACIONES Y EDICIONES SALAMANDRA, S.A.)</editorial>
+		<fecha_de_publicacion>2009</fecha_de_publicacion>
+		<isbn>9788478887699</isbn>
+	</libro>
+
+	<libro>
+		<titulo>El increible ninio comelibros</titulo>
+		<autores>Oliver Jeffers</autores>
+		<editorial>Fondo de Cultura Economica de Espania S.L.</editorial>
+		<fecha_de_publicacion>2007</fecha_de_publicacion>
+		<isbn>9789681682521</isbn>
+	</libro>
+
+	<libro>
+		<titulo>La siesta asesinada</titulo>
+		<autores>Philippe Delerm</autores>
+		<editorial>Tusquets Editores</editorial>
+		<fecha_de_publicacion>2011</fecha_de_publicacion>
+		<isbn>9788483107782</isbn>
+	</libro>
+</imprenta>

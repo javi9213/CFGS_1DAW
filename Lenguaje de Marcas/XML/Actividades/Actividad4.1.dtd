@@ -1,0 +1,17 @@
+<!ELEMENT biblioteca (libros*)>
+<!ELEMENT libros (cod_libro?, titulo?, editorial?, edicion+, isbn?, num_pag+, autor+)>
+<!ELEMENT cod_libro (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT editorial (#PCDATA)>
+<!ELEMENT edicion (#PCDATA)>
+<!ELEMENT isbn (#PCDATA)>
+<!ELEMENT num_pag (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+
+<!ATTLIST cod_libro cod CDATA #REQUIRED>
+<!ATTLIST titulo nom CDATA #IMPLIED>
+<!ATTLIST editorial editor CDATA #REQUIRED>
+<!ATTLIST edicion anio CDATA #REQUIRED>
+<!ATTLIST isbn num CDATA #IMPLIED>
+<!ATTLIST num_pag pag CDATA #IMPLIED>
+<!ATTLIST autor nombre CDATA #IMPLIED>

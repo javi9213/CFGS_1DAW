@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="comunidad">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="vecinos" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="cod_vecino">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="cargo" type="xs:string"/>
+										<xs:element name="nombre" type="xs:string"/>
+										<xs:element name="apellidos" type="xs:string"/>
+										<xs:element name="portal" type="xs:string"/>
+										<xs:element name="pisoyletra" type="xs:string"/>
+										<xs:element name="cod_cuenta_ord" type="xs:string"/>
+									</xs:sequence>
+									<xs:attribute name="carg">
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:enumeration value="presidente"/>
+												<xs:enumeration value="vocal"/>
+												<xs:enumeration value="ninguno"/>
+												<xs:enumeration value="vicepresidente"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

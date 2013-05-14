@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:SchemaLocation="Actividad4.2.xsd">
+	<libros>
+		<cod_libro>123</cod_libro>
+		<titulo>Lenguaje de Marcas</titulo>
+		<editorial>Ra-Ma</editorial>
+		<edicion>1</edicion>
+		<isbn>9876543212</isbn>
+		<num_pag>367</num_pag>
+		<autor>Pablo Rabasco</autor>
+	</libros>
+
+	<libros>
+		<cod_libro>456</cod_libro>
+		<titulo>Programación</titulo>
+		<editorial>Ra-Ma</editorial>
+		<edicion>2</edicion>
+		<isbn>987321654</isbn>
+		<num_pag>450</num_pag>
+		<autor>Laura Raya</autor>
+	</libros>
+</biblioteca>

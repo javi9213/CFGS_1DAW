@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<comunidad xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:SchemaLocation="4.4Casopractico.xsd">
+
+<vecinos>
+		<cod_vecino cargo="presidente">1234</cod_vecino>
+		<nombre>Jose</nombre>
+		<apellidos>López</apellidos>
+		<portal>777</portal>
+		<pisoyletra>3A</pisoyletra>
+		<cod_cuenta_ord>7896543210</cod_cuenta_ord>
+	</vecinos>
+	
+	<vecinos>
+		<cod_vecino cargo="vicepresidente">5678</cod_vecino>
+		<nombre>Javier</nombre>
+		<apellidos>Ruiz</apellidos>
+		<portal>666</portal>
+		<pisoyletra>4C</pisoyletra>
+		<cod_cuenta_ord>6543219870</cod_cuenta_ord>
+	</vecinos>
+	
+	<vecinos>
+		<cod_vecino cargo="ninguno">9012</cod_vecino>
+		<nombre>Roman</nombre>
+		<apellidos>Gutiérrez</apellidos>
+		<portal>555</portal>
+		<pisoyletra>6F</pisoyletra>
+		<cod_cuenta_ord>3214569870</cod_cuenta_ord>
+	</vecinos>
+
+</comunidad>

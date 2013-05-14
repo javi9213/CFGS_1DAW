@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="biblioteca">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="libros" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="cod_libro" type="xs:string"/>
+							<xs:element name="titulo" type="xs:string"/>
+							<xs:element name="editorial" type="xs:string"/>
+							<xs:element name="edicion" type="xs:string"/>
+							<xs:element name="isbn" type="xs:string"/>
+							<xs:element name="num_pag" type="xs:string"/>
+							<xs:element name="autor" type="xs:string"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
